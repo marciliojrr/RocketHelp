@@ -1,7 +1,7 @@
 import { Box, Circle, HStack, Text, useTheme, VStack, Pressable, IPressableProps } from 'native-base';
 import { ClockAfternoon, Hourglass, CircleWavyCheck } from 'phosphor-react-native';
 
-type OrderProps = {
+export type OrderProps = {
     id: string;
     patrimony: string;
     when: string;
